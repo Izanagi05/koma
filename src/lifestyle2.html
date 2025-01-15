@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-full h-[450px] md:pt-16 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Gaduh 'Guyonan' Gus Miftah, Psikolog Soroti Candaan yang Termasuk Bullying</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>Nafilah Sri Sagita K - <span class="text-cyan-700">Detikhealth</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Jum’at, 06 Desember 2024 15:23 WIB</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full min-h-96 mb-6">
+          <img src="../assets/lifestyle2.jpg" alt="Blog Image" class="w-full h-full object-cover rounded-lg" />
+          <small><figure>https://health.detik.com/berita-detikhealth/d-7674123/gaduh-guyonan-gus-miftah-psikolog-soroti-candaan-yang-termasuk-bullying Foto: dok. Pribadi Gus Mifta</figure></small>
+          <!-- <p class="text-sm text-gray-600 mb-6 text-center">Foto : koma.com/Aviatus Sholihah</p> -->
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-2/3 mx-auto">
+          <p class="mb-4">
+            Jakarta - Pemuka agama Miftah Miftah Maulana Habiburahman alias Gus Miftah mundur dari jabatan utusan khusus presiden. Dalam beberapa waktu terakhir, Gus Miftah kerap menjadi sorotan publik. Setelah menghina dan mengolok-olok
+            penjual es teh bernama Sunhaji, kini jejak digital Gus Miftah yang dinilai merendahkan pesinden Yati Pesek ramai beredar. Perkataan Gus Miftah dalam potongan rekaman video vial tersebut menuai kecaman warganet.
+          </p>
+
+          <p class="mb-4">
+            "Kulo niku bersyukur Bude Yati elek. Nek ayu dadi lont* to iki (Aku bersyukur Bude Yati jelek, kalau cantik jadi lont*)," kata Gus Miftah dalam video viral tersebut. Ucapan Gus Miftah itu juga direspons Yati Pesek. Pesinden itu
+            menyebut ucapan Gus Miftah tersebut tak pantas dilontarkan. Yati lantas menyindir Gus Miftah yang bukan seorang ustaz maupun kiai.
+          </p>
+          <p class="mb-4">
+            "Kok sekarang omonganmu kok jadi begitu? Untung Gus, kamu sekarang di sini bukan jadi ustaz, bukan juga jadi kiai," jawab Yati dalam bahasa Jawa. Menyoal kasus tersebut, psikolog klinis Anastasia Sari Dewi menekankan konteks
+            perkataan yang bisa dikategorikan bercanda. Tentu, dalam konteks tersebut, harus ada kesepakatan antara dua arah. Artinya, tidak hanya berasal dari satu pihak yang menganggap konteks tersebut hanyalah candaan. Hal ini juga bisa
+            terlihat dari bagaimana respons seseorang saat menerima perlakuan dari lawan bicaranya.
+          </p>
+          <p class="mb-4">
+            dilakukan di antara orang-orang yang punya hubungan baik, tetapi kalua tidak saling kenal atau bahkan mengeluarkan kata-kata yang jelas konotasi negatif, itu sudah termasuk melakukan perundungan, pembullyan," terang Sari, saat
+            dihubungi detikcom Kamis (5/12/2024). Sementara dalam pernyataan yang terlihat dalam percakapan Gus Miftah dengan pedagang es teh, reaksi pedagang terkait, justru sebaliknya. Tidak ada tawaan seperti yang terjadi pada Gus Miftah
+            dan rekan-rekannya.
+          </p>
+          <p class="mb-4">
+            "Yang jelas konotasi negatif, itu sudah masuk melakukan perundungan, pembullyan, itu sudah tidak lagi lucu, apalagi dikelilingi orang-orang yang tertawa bersama dia, (pedagang es teh) dari ekspresinya juga tidak menunjukkan
+            ketawa, tidak menunjukkan menikmati kata-kata yang dilontarkan, bahkan yang kita ketahui dalam profesional saja, roasting, perlu ada consent," sambung dia.
+          </p>
+          <p class="mb-4">
+            Sari juga menyoroti konteks bercanda dalam level 'roasting'. Secara profesional, sebelum melakukan aksi tersebut, juga diperlukan pemahaman antara keduanya agar proses roasting berjalan baik dan malah tidak menyakiti satu sama
+            lain. Hal ini juga umum tertera dalam kontrak pekerjaan.
+          </p>
+          <p class="mb-4">
+            "Roasting itu kan berdasarkan persetujuan, topik mana yang boleh, dan tidak boleh, yang sensitif, itu kan jadinya bisa dinikmati. Tapi kalau tidak secara consent, mendadak, dilakukan di tempat umum, yang satu ketawa, yang lain
+            tidak ketawa, itu bukan lagi bercandaan," pungkas dia.
+          </p>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-lifestyle.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>

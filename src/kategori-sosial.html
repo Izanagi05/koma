@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-full md:pt-16 bg-gray-100 py-8">
+      <div class="container mx-auto rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Sosial Budaya</h1>
+      </div>
+      <div class="flex flex-col px-8">
+        <a href="sosial.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/ondel.png" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Pelestarian ondel-ondel di masa modernisasi</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Adelia Puspita - <span class="text-cyan-700">koma.com</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Minggu, 08 Des 2024 13:52 WIB</p>
+              <p>
+                Jakarta, Koma.com - Kebudayaan Betawi yang diwakili oleh kesenian ondel-ondel, ikonik dari Jakarta, mulai terkikis oleh arus modernisasi. Dalam beberapa tahun terakhir, pementasan ondel-ondel menurun drastis. Hal ini
+                disebabkan oleh minat masyarakat yang lebih condong pada hiburan modern. Generasi sekarang lebih tertarik pada hal-hal global dibandingkan dengan kebudayaan lokal. <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="sosial2.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/sosial2.png.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Bupati Ajak Masyarakat Bergandeng Tangan Dukung Penyandang Disabilitas</h1>
+              <p class="mb-2">
+                <i class="fas fa-user mr-1"></i>Babam Suryaman, S.Pd.I -
+                <span class="text-cyan-700"> Diskominfotik kabupaten bengkalis </span>
+              </p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Minggu, 01 Desember 2024, 15:11 WIB</p>
+              <p>
+                Bupati Bengkalis, Kasmarni, mengajak seluruh lapisan masyarakat agar bergandeng tangan mendukung penyandang disabilitas. Menurut Kasmarni, setiap individu berhak mendapatkan kesempatan yang sama dalam derap pembangunan
+                Negeri Junjungan, termasuk penyandang disabilitas.
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="sosial3.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/sosial3.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Kebaya Masuk Daftar UNESCO, tapi Identitasnya Milik 5 Negara</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Bonauli - <span class="text-cyan-700"> detikTravel </span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Kamis, 05 Desember 2024 12:35 WIB</p>
+              <p>
+                UNESCO mengumumkan sejumlah warisan budaya takbenda terbaru. Kebaya sekarag sudah diakui sebagai warisan dunia, tapi bukan cuma dari RI. Dilansir dari Channel News Asia (CNA) pada Kamis (5/12/2024), komite antarpemerintah
+                (IGC) UNESCO yang beranggotakan 24 orang mengumumkan kebaya sebagai warisan budaya takbenda UNESCO di Asuncion, Paraguay.
+
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>

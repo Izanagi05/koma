@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KOMA.COM</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-white">
+  <!-- Navbar -->
+  <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+    <div class="flex items-center justify-center">
+      <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+      <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+    </div>
+
+    <div class="hidden md:flex flex-row gap-x-4">
+      <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+      <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+      <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+      <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+      <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+      <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+      <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+    </div>
+
+    <button
+      class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none"
+      id="menu-button">
+      <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <div
+      class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden"
+      id="menu-dropdown">
+      <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+      <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+      <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+      <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+      <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+      <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+      <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="w-full h-full h-[450px] md:pt-16 bg-gray-100 py-6">
+    <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+      <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">5 Tips Agar Kehamilan dan Persalinan Lancar dan
+        Mudah</h1>
+
+      <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+        <p class="mb-2"><i class="fas fa-user mr-1"></i>Aviatus - <span class="text-cyan-700">koma.com</span></p>
+        <p><i class="fas fa-calendar-alt mr-1"></i>Rabu, 11 Des 2024 21:26 WIB</p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="w-full min-h-96 mb-6">
+        <img src="../assets/lifestyle.png" alt="Blog Image" class="w-full h-full object-cover rounded-lg" />
+        <p class="text-sm text-gray-600 mb-6 text-center">Foto : koma.com/Aviatus Sholihah</p>
+      </div>
+
+      <!-- Article Content -->
+      <div class="text-gray-800 leading-relaxed pt-2 w-2/3 mx-auto">
+        <p class="mb-4">
+          Jakarta - Kehamilan adalah momen yang penuh kebahagiaan sekaligus tantangan bagi setiap ibu. Agar proses
+          kehamilan dan persalinan berjalan lancar, ada beberapa tips yang bisa diikuti. Berikut adalah lima tips
+          penting yang dapat
+          membantu ibu hamil menjalani masa kehamilan dengan lebih nyaman dan aman.
+        </p>
+        <ol class="mb-6 pl-6 list-decimal text-gray-800">
+          <li class="mb-4">
+            <strong>Aktif Bergerak dan Berolahraga</strong>
+            <p>
+              Ibu hamil disarankan untuk tetap aktif bergerak. Melakukan aktivitas sehari-hari seperti biasa sangat
+              dianjurkan, di samping itu, olahraga ringan seperti jalan pagi, yoga, atau berenang juga dapat membantu
+              menjaga kebugaran.
+              Aktivitas fisik yang teratur dapat meningkatkan stamina dan mempersiapkan tubuh untuk proses persalinan.
+            </p>
+          </li>
+          <li class="mb-4">
+            <strong>Perhatikan Pola Makan dan Minum</strong>
+            <p>
+              Konsumsi makanan dan minuman harus diperhatikan dengan baik. Ibu hamil disarankan untuk mengonsumsi
+              makanan yang kaya serat dan vitamin, serta membatasi asupan gula dan kalori. Pastikan untuk minum 2-3
+              liter air putih setiap
+              hari untuk menjaga hidrasi tubuh. Mengurangi cairan manis juga penting untuk kesehatan ibu dan janin.
+            </p>
+          </li>
+          <li class="mb-4">
+            <strong>Berpikiran Positif</strong>
+            <p>
+              Kesehatan mental juga berperan penting dalam kehamilan. Ibu hamil perlu menjaga pikiran positif dan
+              menghindari stres. Berpikir positif dapat membantu menciptakan suasana yang tenang dan nyaman, baik untuk
+              ibu maupun janin.
+            </p>
+          </li>
+          <li class="mb-4">
+            <strong>Cukup Istirahat</strong>
+            <p>
+              Istirahat yang cukup sangat penting selama kehamilan. Ibu hamil perlu memastikan bahwa mereka mendapatkan
+              waktu tidur yang cukup dan tidak terlalu lelah. Istirahat yang baik akan membantu tubuh memulihkan energi
+              dan
+              mempersiapkan diri untuk persalinan.
+            </p>
+          </li>
+          <li class="mb-4">
+            <strong>Ikuti Kelas Kehamilan</strong>
+            <p>
+              Mengikuti kelas selama kehamilan, seperti kelas persiapan persalinan, laktasi, dan perawatan bayi baru
+              lahir, sangat dianjurkan. Kelas-kelas ini memberikan pengetahuan dan keterampilan yang berguna bagi ibu
+              hamil, sehingga
+              mereka lebih siap menghadapi proses persalinan dan merawat bayi setelah lahir.
+            </p>
+          </li>
+        </ol>
+        <p class="mb-4">Dengan mengikuti kelima tips di atas, diharapkan kehamilan, persalinan, dan masa pasca
+          melahirkan dapat berjalan dengan baik.</p>
+        <p>
+          Bagi ibu hamil yang membutuhkan konsultasi lebih lanjut mengenai kehamilan dan persalinan, bisa langsung
+          menghubungi melalui Instagram di @homecarebidanestri. Di sana, tersedia berbagai layanan seperti prenatal yoga
+          dan homecare
+          untuk kunjungan ke rumah. Mari sambut kehamilan dengan penuh persiapan dan pengetahuan agar setiap momen
+          menjadi lebih berharga!
+        </p>
+      </div>
+      <div class="flex w-full items-center justify-center pt-10">
+        <a href="kategori-lifestyle.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i
+            class="fas fa-search"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>

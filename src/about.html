@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+      <div class="hidden md:flex flex-row gap-x-4 s">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="about.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">About</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="about.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">About</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+  
+<div class="w-full h-full md:pt-16 bg-gray-100 py-8">
+  <div class="container mx-auto rounded-lg p-6">
+    <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">About Us</h1>
+  </div>
+  <div class="flex flex-col px-8"> 
+    <div class="flex flex-col w-full h-auto pb-10 md:pb-0  md:my-8 md:px-16 gap-y-6" id="about"> 
+      <div  class="grid grid-cols-12 lg:grid-cols-2 gap-x-8 gap-y-4">
+      <div class="col-span-12 lg:col-span-1 ">
+        
+        <div class="flex items-center h-full" >
+          <div>
+            <div class="flex flex-col md:flex-row w-full items-center justify-between md:px-8 gap-x-14 px-4">
+              <div class="flex flex-col w-full  gap-y-3">
+                <h1 class="md:text-3xl text-xl font-semibold">
+                  Tentang Koma.com
+                </h1>
+                <p class="text-base">
+                  Website ini dibuat untuk memenuhi syarat nilai tugas UAS Online Jurnalism. Kami berkomitmen untuk menyajikan berita yang akurat dan terpercaya dengan dukungan tim profesional yang berdedikasi.
+                </p>
+              </div>
+            </div> 
+            <div class="flex flex-col w-full md:px-8 gap-y-6 px-4">
+              <h2 class="md:text-2xl text-lg font-semibold">Nama Penanggung Jawab</h2>
+              <ul class="list-disc list-inside text-base">
+            <li><strong>Pimpinan Redaksi:</strong> Adelia Puspita</li>
+            <li><strong>Redaktur / Editor:</strong> Aviatus Sholihah</li>
+            <li><strong>Reporter:</strong> Nurul Izza Titania</li>
+            <li><strong>Fotografer:</strong> Azahra Nabila</li>
+            <li><strong>Sekretaris Redaksi:</strong> Indah Sukma Anom</li>
+            <li><strong>Marketing / Iklan:</strong> Neelam Natali</li>
+          </ul>
+        </div> 
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="col-span-12 lg:col-span-1 ">
+        <img src="../assets/logo.png" alt="Logo" class="w-3/5 h-3/5">
+      </div>
+    </div>
+     
+
+      <div class="flex flex-col w-full md:px-8 gap-y-6 px-4 ">
+        <h2 class="md:text-2xl text-lg font-semibold">Visi & Misi</h2>
+        <div class="grid grid-cols-12 lg:grid-cols-2 gap-x-8 gap-y-4">
+          <div class="col-span-12 lg:col-span-1 lg:px-6">
+            <h3 class="text-xl font-semibold">Visi</h3>
+            <p class="text-base">
+              Menjadi sumber informasi terpercaya dan terkini yang memenuhi kebutuhan masyarakat akan berita yang akurat, menarik, dan inspiratif.
+            </p>
+          </div>
+          <div class="col-span-12 lg:col-span-1 lg:px-6">
+            <h3 class="text-xl font-semibold">Misi</h3>
+            <ul class="list-disc list-inside text-base">
+              <li>Menyajikan berita yang akurat, objektif, dan tepat waktu melalui 6 kategori (Olahraga, Gaya Hidup, Sosial Budaya, Hiburan, Kuliner, dan Ekonomi).</li>
+              <li>Meningkatkan kesadaran dan pemahaman masyarakat akan isu-isu terkini.</li>
+              <li>Membangun komunitas yang aktif dan berpartisipasi dalam diskusi berita.</li>
+              <li>Menjadi platform promosi bagi talenta dan karya lokal.</li>
+              <li>Mempertahankan kualitas dan integritas jurnalistik.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between z-50">
+      <div class="flex items-center">
+        <img src="../assets/logo.png" alt="Logo Koma" class="w-12 h-full mr-2" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Dropdown -->
+      <div class="hidden flex-col gap-y-2 bg-white shadow-md rounded-lg p-4 absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomis</a>
+        <a href="sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-[450px] md:pt-20 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Pakansari Menjadi Tempat Favorit Masyarakat Cibinong Berolahraga</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>Azahra Nabila - <span class="text-cyan-700">koma.com</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Sabtu, 07 Des 2024 13:52 WIB</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full mb-6">
+          <img src="../assets/sport 1.PNG" alt="Pakansari olahraga" class="w-full h-96 object-cover rounded-lg" />
+          <small><figcaption>Tampak depan Gor Pakansari Cibinong</figcaption></small>
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-11/12 lg:w-2/3 mx-auto">
+          <p class="mb-4">
+            Jakarta, Koma.com – Pakansari Cibinong merupakan salah satu tempat favorit masyarakat Cibinong untuk berolahraga. Dengan lokasi yang strategis dan tempatnya sangat luas, Pakansari dijadikan destinasi utama untuk berolahraga dan
+            bersantai dengan keluarga ataupun teman.
+          </p>
+
+          <img src="../assets/sport 2.PNG" alt="Aktivitas olahraga di Pakansari" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+          <small><figcaption>Lapangan sepak bola di dekat area trek Jogging Pakansari</figcaption></small>
+
+          <p class="mb-4">
+            Biasanya, Pakansari ramai pengunjung di hari Minggu. Terdapat fasilitas area jogging track serta lapangan untuk bermain sepak bola. Pengunjung di Pakansari datang tidak hanya untuk jogging, banyak juga yang bermain badminton dan
+            mengikuti senam massal. Senam massal ini boleh diikuti oleh siapapun.
+          </p>
+
+          <p class="mb-4">
+            Selain menjadi tempat untuk berolahraga, Pakansari juga menyediakan aneka ragam kuliner. Para pedagang UMKM berjajar di sepanjang jalan Pakansari, menawarkan makanan ringan, makanan berat, hingga makanan yang sedang viral.
+          </p>
+          <p class="mb-4">
+            “saya suka pergi ke Pakansari tiap minggu sama keluarga saya, karna ya selain enak buat jogging, banyak makanan viral yang enak-enak disini. Apalagi disini juga ada area jogging tracknya kan, ga jauh juga kebetulan dari rumah
+            saya ke Pakansari” ujar Tania pengunjung Pakansari Cibinong
+          </p>
+
+          <img src="../assets/sport 3.PNG" alt="Kuliner di Pakansari" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+          <small><figcaption>Area bersantai keluarga di Pakansari Cibinong</figcaption></small>
+
+          <p class="mb-4">
+            Pakansari Cibinong juga cocok untuk menjadi tempat bersantai keluarga di akhir pekan. Selain kuliner, banyak area yang disukai anak-anak, seperti tempat penyewaan mobil-mobilan, skuter listrik, sepeda, delman, dan masih banyak
+            lagi. Tunggu apa lagi? Yuk, hidup sehat dengan berolahraga di Pakansari.
+          </p>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-sport.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const menuDropdown = document.getElementById("menu-dropdown");
+
+      menuButton.addEventListener("click", () => {
+        menuDropdown.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

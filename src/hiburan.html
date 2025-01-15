@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between z-50">
+      <div class="flex items-center">
+        <img src="../assets/logo.png" alt="Logo Koma" class="w-12 h-12 mr-2" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Dropdown -->
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-[450px] md:pt-20 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Pameran Art Exhibition gratis di Jakarta</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>Titania - <span class="text-cyan-700">koma.com</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Rabu, 11 Desember 2024 20:40 WIB</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full mb-6">
+          <img src="../assets/IMG_1625.PNG" alt="Pakansari olahraga" class="w-full h-full object-cover rounded-lg" />
+          <small><figcaption>Poster pameran didepan tempat pameran</figcaption></small>
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-11/12 lg:w-2/3 mx-auto">
+          <p class="mb-4">
+            Jakarta, Koma.com. Art exhibition “tanpa batas #8” yang diadakan di lobby binatata menara bidara pada 1-7 desember menarik perhatian para pengunjung yang melewati lobby tersebut karena tempat nya luas, gratis, dan juga banyak
+            sekali seni yang di perlihatkan.
+          </p>
+
+          <p class="mb-4">
+            Pameran seni adalah tempat yang krusial bagi para seniman untuk mempresentasikan karya-karya mereka kepada masyarakat. Aktivitas ini tidak hanya berfungsi sebagai bentuk penghargaan terhadap seni, tetapi juga menawarkan
+            pengalaman visual yang mendalam untuk para pengunjung.
+          </p>
+          <p class="mb-4">“Pameran ini bagus, terutama dalam cara seniman mengungkapkan ide-ide unik mereka. pameran ini bisa menjadi tempat kita untuk menenangkan diri” ujar Reza, salah satu pengunjung pameran"</p>
+          <p class="mb-4">
+            Pameran ini berfungsi sebagai wadah bagi para seniman untuk memamerkan kreativitas dan imajinasi mereka. Melalui pameran, seniman dapat menampilkan karya-karya yang mencerminkan sudut pandang atau ekspresi pribadi mereka
+            mengenai dunia.
+          </p>
+
+          <img src="../assets/IMG_1638.PNG" alt="Aktivitas olahraga di Pakansari" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+          <small><figcaption>koleksi barang antik dipameran</figcaption></small>
+
+          <p class="mb-4">
+            Dalam pameran seni “tanpa batas #8” tidak hanya ada lukisan, tertapi juga banyak barang-barang antik lainnya. Lukisan yang ada juga bukan hanya untuk dipajang, pengunjung juga bisa membeli jika suka dengan lukisan
+          </p>
+
+          <p class="mb-4">
+            Pameran ini cocok untuk anda yang ingin mengambil spot foto untuk diunggah sosial media, dan juga mengisi waktu luang dengan teman, keluarga, dan pasangan karena lukisan lukisannya sangat memanjakan mata dan tidak dipungut
+            biaya.
+          </p>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-lifestyle.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const menuDropdown = document.getElementById("menu-dropdown");
+
+      menuButton.addEventListener("click", () => {
+        menuDropdown.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

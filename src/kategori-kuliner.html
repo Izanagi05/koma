@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-full md:pt-16 bg-gray-100 py-8">
+      <div class="container mx-auto rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Kuliner</h1>
+      </div>
+      <div class="flex flex-col px-8">
+        <a href="kuliner.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/kuliner 1.PNG" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Jajanan Legend Betawi pada Festival Ciganjur</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Neelam Natali - <span class="text-cyan-700">koma.com</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Sabtu, 07 Des 2024, 21.55 WIB</p>
+              <p>
+                Jakarta, 07 Desember 2024 – Festival Kolaborasi Ciganjur yang berlangsung meriah minggu ini menjadi ajang perayaan budaya dan kuliner khas Betawi. Terdapat berbagai jenis jajanan legend khas kuliner betawi yang sangat
+                menarik untuk di nikmati yang tersedia pada festival kolaborasi ciganjur ini. Dalam festival ini, salah satu daya tariknya adalah dodol betawi, yang terkenal dengan tekstur kenyalnya dan ciri rasa manis yang dimilikinya.
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="kuliner2.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/kuliner1.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Jembatan Spirited Away Ala Ghibli Ada di Depok</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Amalia Novia Putri - <span class="text-cyan-700">detikTravel</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Rabu, 04 Des 2024</p>
+              <p>
+                Jakarta - Bagi para pencinta Studio Ghibli, menikmati suasana ajaib dari film-film seperti Spirited Away atau My Neighbor Totoro memang menjadi obsesi. Sebuah restoran ramen unik ini mewujudkan pengalaman tersebut melalui
+                dekorasinya. Restoran itu menggabungkan elemen-elemen khas dari dua film legendaris Ghibli dengan sensasi kuliner ramen Jepang autentik. Kyuka Ramen cabang Depok mengusung konsep ruang kelas tradisional Jepang.
+
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="kuliner3.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/kuliner3.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Opor Susu Legendaris : Hangat Gurih Opor Kuah Susu Ayam Asap dan Daging Sapi</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Sonia Basoni - <span class="text-cyan-700"> detikFood</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Rabu, 04 Desember 2024</p>
+              <p>
+                Jakarta - Tempat makan ini meski terbilang baru tapi cukup viral di media sosial. Menu utamanya ada opor kuah susu dengan pilihan daging ayam dan sapi. Kawasan Kebayoran Baru, Jakarta Selatan, memang jadi salah satu
+                destinasi kuliner kekinian yang diminati kaum Milenial dan Gen Z. Banyak tempat makan datang silih berganti, yang paling anyar ada Opor Susu Legendaris.
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>

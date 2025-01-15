@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-full h-[450px] md:pt-16 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Pentingnya Kehadiran Pasangan Untuk Menguatkan Peran Ibu Dalam Keluarga</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>Rebecca Rosevanya Johanna Rudiansyah, Nabila Tashandra - <span class="text-cyan-700">Kompas.com</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Jum’at, 06 Desember 2024 20:14 WIB</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full min-h-96 mb-6">
+          <img src="../assets/rebeca.png" alt="Blog Image" class="w-full h-full object-cover rounded-lg" />
+          <small
+            ><figure>
+              Foto : Entrepreneur, Putri Tanjung; Psikolog dan Parenting Expert, Samanta Elsener dalam Konferensi Pers BundaFest 2024 di Lotte Mall Jakarta, Jakarta Selatan, pada Jumat (06/12/2024).(Kompas.com/Rebecca Rosevanya)
+            </figure></small
+          >
+          <!-- <p class="text-sm text-gray-600 mb-6 text-center">Foto : koma.com/Aviatus Sholihah</p> -->
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-2/3 mx-auto">
+          <p class="mb-4">
+            KOMPAS.com - Menjadi seorang ibu adalah perjalanan yang penuh tantangan, terutama bagi ibu baru. Membagi waktu dan tenaga untuk mengurus keluarga seringkali membuat kewalahan dan butuh dukungan dari orang-orang terdekat, apalagi
+            jika sambil mengejar karir. Dalam banyak kasus, pasangan telah menjadi figur utama dalam support system seorang ibu.
+          </p>
+
+          <p class="mb-4">
+            Menurut Psikolog Samanta Elsener, pasangan adalah orang terdekat yang melibatkan keintiman dan komitmen. Untuk itu, kerja sama antarpasangan sangat penting dalam mengambil peran sebagai orangtua. “Ibaratnya, satu-satunya orang
+            yang kita pilih untuk hadir dalam kehidupan kita adalah pasangan,” ujarnya dalam Konferensi Pers BundaFest 2024 di Lotte Mall Jakarta, Jakarta Selatan, Jumat (06/12/2024).
+          </p>
+          <p class="mb-4">
+            Apalagi, ia menambahkan, kita tidak dapat memilih siapa orangtua dan anak kita. Namun, kita bisa memilih dengan siapa kita berkomitmen dan membangun rumah tangga. Sehingga, sangat wajar jika seorang ibu merasa sedih dan kecewa
+            jika pasangan tidak dapat memahami perasaannya. “Dalam sebuah rumah tangga, poin pentingnya adalah bunda dan ayah. Jadi, pasti ibu selalu ingin dekat dan nyaman dengan pasangan, pengen kayak ada di negeri dongeng setiap hari,”
+            katanya.
+          </p>
+          <p class="mb-4">
+            Hadirnya masalah tidak bisa diprediksi. Untuk itu, mampu saling berbagi denan pasangan saat lelah dan masalah datang sangatlah penting. Apapun kondisi ekonomi atau masalah yang dihadapi, seorang ibu pasti membutuhkan pasangan
+            yang dapat memahaminya. Ini karena dalam otak perempuan, yang bekerja adalah amigdala atau bagian emosinya. “Begitu dipahami rasanya tuh senang banget dan merasa terkoneksi dengan suami. Walaupun seharian enggak ketemu atau
+            sebulan LDR, rasanya tuh seneng karena ternyata suami masih paham aku,” tutup Samanta.
+          </p>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-lifestyle.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>

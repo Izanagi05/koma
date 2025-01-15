@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between z-50">
+      <div class="flex items-center">
+        <img src="../assets/logo.png" alt="Logo Koma" class="w-12 h-12 mr-2" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Dropdown -->
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-[450px] md:pt-20 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Daftar Lengkap Pemenang Spotify Wrapped Live Indonesia 2024</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>(frl/end) <span class="text-cyan-700"> CNN Indonesia </span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>6 Desember 2024</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full mb-6">
+          <img src="../assets/hiburan3.jpg" alt="Pakansari olahraga" class="w-full h-full object-cover rounded-lg" />
+          <small
+            ><figcaption>
+              Bernadya membawa pulang piala kategori Indonesia Top Female Artist of 2024, Indonesia Top Song of the Year 2024 melalui single hit Satu Bulan, Indonesia Top Artist of the Year 2024, dan Indonesia Top Album of 2024 untuk
+              albumnya berjudul Sialnya, Hidup Harus Tetap Berjalan. (Tangkapan layar Instagram @bernadyaribka)
+            </figcaption></small
+          >
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-11/12 lg:w-2/3 mx-auto">
+          <p class="mb-4">
+            Spotify Wrapped Live Indonesia 2024 selesai mengumumkan daftar pemenang ajang tahun ini, pada Kamis (5/12) malam. Bintang pop Bernadya berhasil mendominasi dengan memenangkan empat piala. Bernadya membawa pulang piala kategori
+            Indonesia Top Female Artist of 2024, Indonesia Top Song of the Year 2024 melalui single hit Satu Bulan, Indonesia Top Artist of the Year 2024, dan Indonesia Top Album of 2024 untuk albumnya berjudul Sialnya, Hidup Harus Tetap
+            Berjalan.
+          </p>
+
+          <p class="mb-4">
+            Beberapa musisi lain juga berhasil membawa pulang piala Spotify Wrapped Live Indonesia 2024, seperti Tulus, Salma Salsabil Juicy Luicy, hingga Guyon Waton. Penghargaan itu juga dianugerahkan kepada musisi internasional yang
+            mencetak jumlah pendengar impresif di Indonesia. Sebut saja Taylor Swift, Henry Moodie, hingga BTS. Di sisi lain, Spotify Wrapped Live Indonesia 2024 turut menganugerahkan piala di kategori podcast. Lentera Malam berhasil
+            memenangkan dua piala tahun ini, diikuti siniar lainnya, seperti Horor Misteri Riplay, Agak Laen, Rintik Sedu, hingga Riri Cerita Anak Interaktif.
+          </p>
+          <p>Berikut daftar lengkap pemenang Spotify Wrapped Live Indonesia 2024</p>
+          <ol class="list-disc list-inside space-y-2">
+            <li>Indonesia Top Artist of the Year 2024</li>
+            <li>Indonesia Top Top Song of the Year 2024 Bernadya – Satu Bulan</li>
+            <li>Indonesia Top Album of 2024 Bernadya – Sialnya, Hidup Harus Tetap Berjalan</li>
+            <li>Indonesia Top RADAR Artist of 2024 Salma Salsabil</li>
+            <li>Indonesia Top Female Artist of 2024: Bernadya</li>
+            <li>Indonesia Top Male Artist of 2024: Tulus</li>
+            <li>Indonesia Top Group of 2024: Juicy Luicy</li>
+            <li>Indonesia Top Ambyar Song of 2024: Guyon Waton – Wirang</li>
+            <li>Indonesia Top International Artist of 2024: Taylor Swift</li>
+            <li>Indonesia Top International Song of 2024: Henry Moodie – Drunk Text</li>
+            <li>Global Top Kpop Artist of 2024: BTS</li>
+            <li>Global Top Kpop Song of 2024: Jimin – Who</li>
+            <li>Indonesia Top Podcast of 2024: Lentera Malam (Podcast Horror)</li>
+            <li>Indonesia Top Education Podcast of 2024: Riri Cerita Anak Interaktif</li>
+            <li>Indonesia Top Self-Care Podcast of 2024: Rintik Sedu</li>
+            <li>Indonesia Top Comedy Podcast of 2024: Agak Laen</li>
+            <li>Indonesia Top New Podcast of 2024: Horor Misteri Replay</li>
+            <li>Indonesia Top Horror Podcast of 2024: Lentera Malam (Podcast Horror)</li>
+          </ol>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-hiburan.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const menuDropdown = document.getElementById("menu-dropdown");
+
+      menuButton.addEventListener("click", () => {
+        menuDropdown.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

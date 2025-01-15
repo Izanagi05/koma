@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between z-50">
+      <div class="flex items-center">
+        <img src="../assets/logo.png" alt="Logo Koma" class="w-12 h-12 mr-2" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Dropdown -->
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-[450px] md:pt-20 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Opor Susu Legendaris : Hangat Gurih Opor Kuah Susu Ayam Asap dan Daging Sapi</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>Sonia Basoni - <span class="text-cyan-700">detikFood</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Rabu,4 Des 2024</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full min-h-96 mb-6">
+          <img src="../assets/kuliner3.jpg" alt="Pakansari olahraga" class="w-full h-full object-cover rounded-lg" />
+          <small><figcaption>Foto: detikFood</figcaption></small>
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-11/12 lg:w-2/3 mx-auto">
+          <p class="mb-4">
+            Jakarta - Tempat makan ini meski terbilang baru tapi cukup viral di media sosial. Menu utamanya ada opor kuah susu dengan pilihan daging ayam dan sapi. Kawasan Kebayoran Baru, Jakarta Selatan, memang jadi salah satu destinasi
+            kuliner kekinian yang diminati kaum Milenial dan Gen Z. Banyak tempat makan datang silih berganti, yang paling anyar ada Opor Susu Legendaris.
+          </p>
+
+          <img src="../assets/kuliner3_1.jpg" alt="Kuliner 3" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+          <small><figcaption>Hangat Gurih Opor Kuah Susu Ayam Asap dan Daging Sapi Foto: detikFood</figcaption></small>
+          <p class="mb-4">
+            Tempat makan ini baru buka awal bulan November lalu, tapi sudah terkenal karena sang pemilik, Jonathan Liandi merupakan gamer profesional sekaligus mantan pro player ternama. Setelah sukses di dunia E-sports, Jonathan menjajal
+            bisnis kuliner dengan yang menyuguhkan opor kuah susu. Sebuah inovasi berani untuk sajian tradisional khas Jawa.
+          </p>
+
+          <p class="mb-4">Berikut beberapa menu andalan di Opor Susu Legendaris:</p>
+          <p class="mb-4">1. Opor dengan Kuah Susu</p>
+
+          <img src="../assets/kuliner3_2.jpg" alt="Kuliner 3" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+          <small><figcaption>Hangat Gurih Opor Kuah Susu Ayam Asap dan Daging Sapi Foto: detikFood</figcaption></small>
+
+          <p class="mb-4">
+            Jonathan Liandi membuat inovasi opor ayam Jawa dengan membuat opor tidak dengan santan tetapi dengan susu sapi. Meski sudah dimodifikasi dengan resepnya tapi cita rasanya tetap legendaris menurut Jonathan. Jonathan tak sendiri,
+            ia menggandeng salah satu temannya yang memiliki resep opor susu ini untuk membuka bisnis kuliner bersama. "Opor di sini mirip seperti soto Betawi, karena kalau kita lihat opor di nasi Padang biasanya isinya hanya ayam saja.
+            Nah, kalau di sini opornya itu yang jadi menu utama kita," tuturnya.
+          </p>
+
+          <p class="mb-4">2. Opor Susu Ayam Legendaris</p>
+
+          <img src="../assets/kuliner3_3.jpg" alt="Kuliner 3" class="w-full h-auto mx-auto object-cover rounded-lg mb-4" />
+
+          <p class="mb-4">
+            Aroma kuahnya harum mengingatkan dengan opor ayam khas Lebaran. Bedanya di sini rasa kuah opornya lebih ringan dan creamy karena menggunakan susu sapi bukan santan. Selain itu rasa unik dari opor ini muncul dari ayam asap yang
+            ekstra 'smokey' dan sedikit kering. Rasa 'smokey' ini diseimbangkan dengan ayam opor yang lembut dan berempah. Telur rebusnya tak hanya jadi pelengkap saja tapi membuat hidangan opor susu ini jadi komplet. Paket di atas belum
+            termasuk nasi putih (Rp 6.000).
+          </p>
+
+          <p>Detail Informasi</p>
+          <h2 class="font-bold text-gray-800">Nama Tempat Makan: Opor Susu Legendaris</h2>
+          <div class="space-y-2">
+            <p><span class="font-semibold text-gray-600">Alamat:</span> JL. Cibulan Raya No. 17A, Petogogan, Kebayoran Baru, Jakarta Selatan</p>
+            <p><span class="font-semibold text-gray-600">No Telp:</span> 0822-6058-0025</p>
+            <p><span class="font-semibold text-gray-600">Jam Operasional:</span></p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Minggu - Kamis: 10.00 - 22.00</li>
+              <li>Jumat - Sabtu: 10.00 - 00.00</li>
+            </ul>
+            <p><span class="font-semibold text-gray-600">Estimasi Harga:</span> Rp 25.000 - Rp 100.000</p>
+            <p><span class="font-semibold text-gray-600">Tipe Kuliner:</span> Opor susu</p>
+            <p><span class="font-semibold text-gray-600">Fasilitas:</span></p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Parkiran</li>
+              <li>Pembayaran cashless</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-kuliner.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const menuDropdown = document.getElementById("menu-dropdown");
+
+      menuButton.addEventListener("click", () => {
+        menuDropdown.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between z-50">
+      <div class="flex items-center">
+        <img src="../assets/logo.png" alt="Logo Koma" class="w-12 h-full mr-2" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Mobile Menu Dropdown -->
+      <div class="hidden flex-col gap-y-2 bg-white shadow-md rounded-lg p-4 absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomis</a>
+        <a href="sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-[450px] md:pt-20 bg-gray-100 py-6">
+      <div class="container mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Erick Tohir Bangga Timnas Putri Akhiri Penantian 49 Tahun</h1>
+
+        <div class="flex flex-col items-center text-sm text-gray-600 mb-6">
+          <p class="mb-2"><i class="fas fa-user mr-1"></i>(abs/har) - <span class="text-cyan-700"> CNN Indonesia</span></p>
+          <p><i class="fas fa-calendar-alt mr-1"></i>Jumat, 06 Desember 2024 13.40 WIB</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full mb-6">
+          <img src="../assets/sport-3.jpg" alt="Timnas" class="w-full h-96 object-cover rounded-lg" />
+          <small><figcaption>Timnas Putri Indonesia menjadi juara Piala AFF 2024. (Dok PSSI)</figcaption></small>
+        </div>
+
+        <!-- Article Content -->
+        <div class="text-gray-800 leading-relaxed pt-2 w-11/12 lg:w-2/3 mx-auto">
+          <p class="mb-4">
+            Jakarta, CNN Indonesia -- Ketua Umum PSSI Erick Thohir merasa bahagia Timnas Putri Indonesia berhasil meraih gelar juara Piala AFF Wanita 2024 yang merupakan sarana playoff ASEAN Women Championship 2025. Erick mengatakan sukses
+            Timnas Putri Indonesia ini merupakan sejarah baru, sebab baru kali ini Garuda Pertiwi menjadi yang terbaik di ajang Piala AFF. Erick mengatakan ini adalah sejarah yang dinanti 49 tahun.
+          </p>
+
+          <p class="mb-4">
+            "Momen bersejarah untuk Timnas putri yang berhasil meraih trofi pertama setelah menanti selama 49 tahun atau sejak pertama dibentuk pada 1975," kata Erick di Instagram miliknya “Garuda Pertiwi juga berhasil meraih penghargaan
+            individu pada Piala AFF Wanita 2024, yaitu pemain terbaik untuk Reva Octaviani dan kiper terbaik yang diraih Lita Roati." Gelar juara ini, kata Menteri BUMN tersebut, harus dijadikan motivasi. Setelah ini persiapan lebih baik
+            harus dilakukan agar bisa tampil maksimal pada kejuaraan berikutnya.
+          </p>
+
+          <p class="mb-4">
+            Yang tak kalah penting, PSSI harus menggelar kompetisi sepak bola putri. Jika tidak menggelar kompetisi niscaya perjalanan Timnas Putri Indonesia tak akan sampai pentas Asia. Piala AFF Wanita 2024 atau AFF Women's Cup 2024
+            merupakan turnamen kualifikasi untuk tampil di ASEAN Women's Championship 2025. Di turnamen tersebut Timnas Indonesia akan menghadapi lawan-lawan yang lebih berat. Timnas Putri Indonesia yang lolos bersama Kamboja dan Singapura,
+            sudah ditunggu Thailand, Vietnam, Filipina, dan Myanmar.
+          </p>
+        </div>
+        <div class="flex w-full items-center justify-center pt-10">
+          <a href="kategori-sport.html" class="text-cyan-700 font-bold">Temukan berita lainnya <i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const menuDropdown = document.getElementById("menu-dropdown");
+
+      menuButton.addEventListener("click", () => {
+        menuDropdown.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

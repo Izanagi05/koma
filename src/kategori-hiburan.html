@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMA.COM</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="w-full h-20 bg-white z-20 fixed top-0 shadow-lg flex items-center px-6 sm:px-14 justify-between">
+      <div class="flex items-center justify-center">
+        <img src="../assets/logo.png" alt="Logo" class="w-20 h-20" />
+        <h1 class="font-bold text-xl sm:text-2xl">Koma</h1>
+      </div>
+
+      <div class="hidden md:flex flex-row gap-x-4">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+
+      <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 focus:outline-none" id="menu-button">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="flex flex-col gap-y-2 z-20 bg-white shadow-md rounded-lg p-4 h-auto absolute top-20 right-6 w-[80%] md:hidden" id="menu-dropdown">
+        <a href="blog.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Home</a>
+        <a href="kategori-ekonomi.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Ekonomi</a>
+        <a href="kategori-sosial.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sosial Budaya</a>
+        <a href="kategori-lifestyle.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Life Style</a>
+        <a href="kategori-hiburan.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Entertaiment</a>
+        <a href="kategori-kuliner.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Kuliner</a>
+        <a href="kategori-sport.html" class="text-sm sm:text-base hover:text-sky-300 font-semibold">Sport</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="w-full h-full md:pt-16 bg-gray-100 py-8">
+      <div class="container mx-auto rounded-lg p-6">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-950">Hiburan dan Entertaiment</h1>
+      </div>
+      <div class="flex flex-col px-8">
+        <a href="hiburan.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/IMG_1625.PNG" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Pameran Art Exhibition gratis di Jakarta</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Titania - <span class="text-cyan-700">koma.com</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Rabu, 11 Desember 2024 20:40 WIB</p>
+              <p>
+                Art exhibition “tanpa batas #8” yang diadakan di lobby binatata menara bidara pada 1-7 desember menarik perhatian para pengunjung yang melewati lobby tersebut karena tempat nya luas, gratis, dan juga banyak sekali seni yang
+                di perlihatkan. <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="hiburan2.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/hiburan2.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Profil Evan Mock, Model MV “Toxic Till The End” Rosé BLACKPINK</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i>Melvina Tionardus - <span class="text-cyan-700">Kompas.com</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Jum’at, 06 Desember 2024 10:23 WIB</p>
+              <p>
+                Evan Mock adalah model, pemain skateboard, sekaligus aktor asal Amerika Serikat. Evan Mock merupakan model video musil lagu Rosé BLACKPINK yang berjudul “Toxic Till The End”. Latar belakang Evan Mock Evan Mock memiliki darah
+                campuran Filipina dan Amerika Serikat. Ia lahir di Oahu, Hawaii, 8 April 1997. Ayahnya adalah seorang pembuat papan selancar. Evan memiliki adik laki-laki bernama Alika Mock.
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="hiburan3.html" class="mb-8">
+          <div class="flex flex-col md:flex-row items-center gap-x-4">
+            <img src="../assets/hiburan3.jpg" width="100" height="100" class="w-96 h-72 rounded-xl" alt="" />
+            <div class="flex flex-col w-full">
+              <h1 class="text-3xl font-bold mb-4 text-blue-950">Daftar Lengkap Pemenang Spotify Wrapped Live Indonesia 2024</h1>
+              <p class="mb-2"><i class="fas fa-user mr-1"></i> (frl/end) <span class="text-cyan-700">CNN Indonesia</span></p>
+              <p><i class="fas fa-calendar-alt mr-1"></i>Jum’at, 06 Desember 2024 19:26 WIB</p>
+              <p>
+                Spotify Wrapped Live Indonesia 2024 selesai mengumumkan daftar pemenang ajang tahun ini, pada Kamis (5/12) malam. Bintang pop Bernadya berhasil mendominasi dengan memenangkan empat piala. Bernadya membawa pulang piala
+                kategori Indonesia Top Female Artist of 2024, Indonesia Top Song of the Year 2024 melalui single hit Satu Bulan, Indonesia Top Artist of the Year 2024, dan Indonesia Top Album of 2024 untuk albumnya berjudul Sialnya, Hidup
+                Harus Tetap Berjalan.
+
+                <span>Baca selengkapnya...</span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // ini untuk mengontrol dropdown menu
+  document.getElementById("menu-button").addEventListener("click", function () {
+    const menuDropdown = document.getElementById("menu-dropdown");
+    menuDropdown.classList.toggle("hidden");
+  });
+</script>
